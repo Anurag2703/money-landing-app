@@ -1,0 +1,64 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "MoneyLendingRequests",
+    "collectionId": "9877c061-4fcf-4aeb-99a5-e3127751d1dc",
+    "dateExported": "2024-07-21T05:11:49.428Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "37f1417d-ae75-4b3f-a50f-e0bf5b70f875",
+            "colId": "9877c061-4fcf-4aeb-99a5-e3127751d1dc",
+            "containerId": "",
+            "name": "SignUp",
+            "url": "http://localhost:3000/signup",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-07-21T05:11:25.370Z",
+            "modified": "2024-07-21T05:11:25.370Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"phone\": \"1234567890\",\r\n  \"email\": \"user@example.com\",\r\n  \"name\": \"John Doe\",\r\n  \"dob\": \"2000-01-01\",\r\n  \"monthlySalary\": 30000,\r\n  \"password\": \"password123\"\r\n}\r\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "fea99553-57cd-48fc-ad35-443a3ecde36c",
+            "colId": "9877c061-4fcf-4aeb-99a5-e3127751d1dc",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:3000/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-21T05:11:35.051Z",
+            "modified": "2024-07-21T05:11:35.051Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"email\": \"user@example.com\",\r\n  \"password\": \"password123\"\r\n}\r\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "96f1429f-44c1-482a-945e-a2894eb0efac",
+            "colId": "9877c061-4fcf-4aeb-99a5-e3127751d1dc",
+            "containerId": "",
+            "name": "ShowUserData",
+            "url": "http://localhost:3000/user?Bearer=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWM5Nzk2MDRhNjU3ZGE0NmIyZmFlNyIsImlhdCI6MTcyMTUzODQ2OSwiZXhwIjoxNzIxNTQyMDY5fQ.xKnDYzY-4KMlidBKraUtAQ395_pFObbyuU79Z14KP_k",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-07-21T05:11:42.544Z",
+            "modified": "2024-07-21T05:11:42.544Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "Bearer",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWM5Nzk2MDRhNjU3ZGE0NmIyZmFlNyIsImlhdCI6MTcyMTUzODQ2OSwiZXhwIjoxNzIxNTQyMDY5fQ.xKnDYzY-4KMlidBKraUtAQ395_pFObbyuU79Z14KP_k",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "0WUM2TqaM6hVJMN7Zzq_8SyNy-rJq1lujtzomAED5N0ocpIVjfdoKYS-lTNI83PvExiIODR4HAyWWzciMCcPRw"
+}
