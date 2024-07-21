@@ -10,10 +10,7 @@ const PORT = 3000;
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/moneyLendingApp', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect('mongodb://localhost:27017/moneyLendingApp');
 
 // User schema and model
 const userSchema = new mongoose.Schema({
